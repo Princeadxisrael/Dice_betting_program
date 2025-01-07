@@ -69,7 +69,7 @@ Use the program with a frontend or CLI to interact with its features, such as pl
 
 Program Instructions
 
-1. Initialize
+### 1. Initialize
 
 Sets up the program’s state, including:
 
@@ -77,7 +77,7 @@ Sets up the program’s state, including:
 
 - Setting program parameters.
 
-2. Bet
+### 2. Bet
 
 Allows a user to place a bet by specifying:
 
@@ -85,13 +85,13 @@ Allows a user to place a bet by specifying:
 
 - Prediction for the dice roll outcome.
 
-Instruction Files
+### Instruction Files
 
 - initialize.rs: Handles initialization logic.
 
 - bet.rs: Implements betting logic.
 
-Error Handling
+## Error Handling
 
 The program uses custom error definitions in errors.rs to provide meaningful feedback when issues arise. Common errors include:
 
@@ -101,7 +101,7 @@ The program uses custom error definitions in errors.rs to provide meaningful fee
 
 - Incorrect program state transitions.
 
-Contributing
+## Contributing
 
 Contributions are welcome! To contribute:
 
@@ -113,7 +113,7 @@ Contributions are welcome! To contribute:
 
 4. Submit a pull request.
 
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
